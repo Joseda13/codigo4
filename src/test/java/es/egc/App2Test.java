@@ -3,6 +3,7 @@ package es.egc;
 import junit.framework.Test;
 import junit.framework.TestCase;
 import junit.framework.TestSuite;
+import main.java.es.egs.App2;
 
 /**
  * Unit test for simple App.
@@ -33,6 +34,6 @@ public class App2Test
      */
     public void testApp()
     {
-        assertTrue( new resta(5,2) == 3 );
+        assertTrue( new App2().resta(5,2) == 3 );
     }
 }
