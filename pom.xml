@@ -24,27 +24,27 @@
   </dependencies>
   
   <profiles>
-    <profile>
-      <id>P1</id>
-  	<activation>
-	 	<property>
-          		<name>P</name>
-        		<value>P1</value>
-        	</property>
-      	</activation>
-        <build>
-          <plugins>
-            	<plugin>
-	              <groupId>org.apache.maven.plugins</groupId>
-	              <artifactId>maven-jar-plugin</artifactId>
-	              <version>2.6</version>
-	              <configuration>
-	              	<finalName>myApp_14636205-V</finalName>
-	              </configuration>
-		</plugin>
-          </plugins>
-        </build>
-    </profile>
+    	<profile>
+        	<id>P1</id>
+  		<activation>
+	 		<property>
+          			<name>P</name>
+        			<value>P1</value>
+        		</property>
+      		</activation>
+	        <build>
+	          <plugins>
+	            	<plugin>
+		              <groupId>org.apache.maven.plugins</groupId>
+		              <artifactId>maven-jar-plugin</artifactId>
+		              <version>2.6</version>
+		              <configuration>
+		              	<finalName>myApp_14636205-V</finalName>
+		              </configuration>
+			</plugin>
+	          </plugins>
+	        </build>
+    	</profile>
   </profiles>
 
 </project>
