@@ -3,8 +3,8 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>es.egc</groupId>
-  <artifactId>ex4</artifactId>
-  <version>1.0-SNAPSHOT</version>
+  <artifactId>14636205-V</artifactId>
+  <version>4.1-SNAPSHOT</version>
   <packaging>jar</packaging>
 
   <name>ex4</name>
@@ -22,5 +22,30 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+  
+  <profiles>
+    <profile>
+      <id>P1</id>
+  		<activation>
+	     <property>
+          <name>P</name>
+          <value>P1</value>
+        </property>
+      </activation>
+        <build>
+          <plugins>
+            <plugin>
+              <groupId>org.apache.maven.plugins</groupId>
+              <artifactId>maven-jar-plugin</artifactId>
+              <version>2.6</version>
+              <scope>package</scope>
+              <configuration>
+              	<finalName>myApp_14636205-V</finalName>
+              </configuration>
+		        </plugin>
+          </plugins>
+        </build>
+    </profile>
+  </profiles>
 
 </project>
