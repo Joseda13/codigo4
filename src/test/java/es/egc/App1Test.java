@@ -3,7 +3,7 @@ package es.egc;
 import junit.framework.Test;
 import junit.framework.TestCase;
 import junit.framework.TestSuite;
-import main.java.es.esg.App1;
+import es.egc.App1;
 
 /**
  * Unit test for simple App.
