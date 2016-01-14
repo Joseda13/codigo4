@@ -1,8 +1,9 @@
-
+package es.egc;
 
 import junit.framework.Test;
 import junit.framework.TestCase;
 import junit.framework.TestSuite;
+import main.java.es.esg.App1;
 
 /**
  * Unit test for simple App.
@@ -31,6 +32,6 @@ public class App1Test
     
     public void testApp()
     {
-        assertTrue( new Test().suma(2,2) == 4 );
+        assertTrue( new App1().suma(2,2) == 4 );
     }
 }
