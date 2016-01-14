@@ -28,9 +28,7 @@ public class App1Test
         return new TestSuite( App1Test.class );
     }
 
-    /**
-     * Rigourous Test :-)
-     */
+    
     public void testApp()
     {
         assertTrue( new App1().suma(2,2) == 4 );
