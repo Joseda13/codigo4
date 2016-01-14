@@ -26,12 +26,12 @@
   <profiles>
     <profile>
       <id>P1</id>
-  		<activation>
-	     <property>
-          <name>P</name>
-          <value>P1</value>
-        </property>
-      </activation>
+  	<activation>
+	 	<property>
+          		<name>P</name>
+        		<value>P1</value>
+        	</property>
+      	</activation>
         <build>
           <plugins>
             <plugin>
